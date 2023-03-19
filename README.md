@@ -147,19 +147,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pb4Cibp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Observe DNS Traffic
-- Back in WireShark, filter for DNS traffic only
-- From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com's IP addresses are
+  - Back in WireShark, filter for DNS traffic only
+  - From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com's IP addresses are
+    - cmd -> nslookup www.google.com -> enter
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kXXBP2b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -171,10 +172,4 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
-</p>
-<br />
