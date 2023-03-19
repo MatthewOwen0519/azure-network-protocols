@@ -30,16 +30,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observe RDP Traffic
 
 <h2>Actions and Observations</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-- Create a Resource Group
-- Create a Windows 10 VM
-- Create a Linux (Ubuntu) VM
-- Observe Your Virtal Network within Network Watcher
   
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
