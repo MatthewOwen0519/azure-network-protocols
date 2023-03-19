@@ -165,8 +165,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 
 - Observe RDP Traffic
-- Back in WireShark, filter for RDP traffic only (tcp.prt==3389)
-- Observe the immediate non-stop spam of traffic. RDP is constantly showing you a live stream from one ocomputer to another, therefor traffic is always being transmitted
+  - Back in WireShark, filter for RDP traffic only (tcp.prt==3389)
+  - Observe the immediate non-stop spam of traffic. RDP is constantly showing you a live stream from one ocomputer to another, therefor traffic is always being transmitted
 
 </p>
 <br />
