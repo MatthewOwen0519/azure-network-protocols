@@ -87,24 +87,30 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VX0gkPI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
 - Retrieve the private IP address of the Ubuntu VM and attmpt to ping from within the Windows 10 VM
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
   - in cmd, type ping -t and then the private IP address
-  
+
+</p>
+<br />
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dIFJygr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p> 
   
 - Open the Network Security Group your Ubuntu VM is using and disable incoming ICMP traffic
   - Azure portal -> search Network Security Group -> Inbound Security Rules -> Add (a rule) -> click ICMP -> Deny -> set priority to 200 -> name the rule (Deny_IMCP_Ping_From_Anywhere) -> Add
-  
+
+</p>
+<br />
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dIFJygr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
