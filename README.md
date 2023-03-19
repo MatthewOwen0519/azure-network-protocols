@@ -32,13 +32,40 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
   
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VULXgpN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Create a Resource Group
+  - Resource Group -> create -> name the group -> region: pick one near your location for optimal performance -> Review and Create -> Create
+
+<p>
+<img src="https://i.imgur.com/nQa0HuD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/nPGPJLE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 - Create a Windows 10 Virtual Machine (VM)
+  - Virtual Machine -> create -> select the resource group we just created -> name your machine (Windows-VM) -> Select a region (same as your resource group) -> Select the Windows 10 image -> select at least 2 cpus -> user: labuser -> create a password -> check the box for Liscense Agreement -> Review and create -> Create
+
+</p>
+<br /> 
+
+<p>
+<img src="https://i.imgur.com/01jMYHT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/mHbdfzf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 - Create a Linux (Ubuntu) VM
+  - Virtual Machine -> create -> select the resource group we just created -> name your machine (Windows-VM) -> Select a region (same as your resource group) -> Select the Ubuntu image -> select at least 2 cpus -> user: labuser -> create a password -> check the box for Liscense Agreement -> Review and create -> Create
+  
 - Observe Your Virtual Network within Network Watcher
 
 </p>
@@ -115,6 +142,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
