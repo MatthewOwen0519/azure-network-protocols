@@ -59,12 +59,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/mHbdfzf.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3TVJPKI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Create a Linux (Ubuntu) VM
-  - Virtual Machine -> create -> select the resource group we just created -> name your machine (Windows-VM) -> Select a region (same as your resource group) -> Select the Ubuntu image -> select at least 2 cpus -> user: labuser -> create a password -> check the box for Liscense Agreement -> Review and create -> Create
+  - Virtual Machine -> create -> select the resource group we just created -> name your machine (Windows-VM) -> Select a region (same as your resource group) -> Select the Ubuntu image -> select at least 2 cpus -> switch from SSH to password -> user: labuser -> enter a password -> Review and create -> Create
   
 - Observe Your Virtual Network within Network Watcher
 
@@ -93,9 +93,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 - Retrieve the private IP address of the Ubuntu VM and attmpt to ping from within the Windows 10 VM
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
-  - Open the Network Security Group your Ubuntu VM is using and disable incoming ICMP traffic
-    - Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line Ping activity
-    - Stop the Ping activity
+  - in cmd, type ping -t and then the private IP address
+- Open the Network Security Group your Ubuntu VM is using and disable incoming ICMP traffic
+  - Azure portal -> search Network Security Group ->
+- Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line Ping activity
+  - Stop the Ping activity
   
 </p>
 <br />
