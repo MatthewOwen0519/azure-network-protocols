@@ -121,25 +121,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DHOgMhk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Observe SSH Traffic
-- Back in WireShark, filter for SSH traffic only
-- From your Windows 10 VM, "SSH into" your Ubuntu VM (via its private IP address)
+  - Back in WireShark, filter for SSH traffic only
+  - From your Windows 10 VM, "SSH into" your Ubuntu VM (via its private IP address)
+    - cmd -> ssh labuser@10.0.0.6 (the private ip) -> enter -> yes -> type the password -> enter
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6rArbzl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 - Observe DHCP Traffic
-- Back in WireShark, filter for DHCP traffic only
-- From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+  - Back in WireShark, filter for DHCP traffic only
+  - From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+    - cmd -> ipconfig /renew -> enter
 
 </p>
 <br />
