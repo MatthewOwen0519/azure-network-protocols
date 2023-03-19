@@ -72,7 +72,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/EqOOA7d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3dqvgjf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -80,6 +80,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Use Remote Desktop to connect to your Windows 10 VM
   - Within your Windows 10 VM, install Wireshark
     - [WireShark](https://www.wireshark.org/)
+  - Open WireShark and filter for ICMP traffic only
+  - From the Windows 10 VM, open command line or Powershell and attempt to ping a public website (www.google.com) and observe the traffic in Wireshark
+  
 </p>
 <br />
 
@@ -89,15 +92,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   
 - Retrieve the private IP address of the Ubuntu VM and attmpt to ping from within the Windows 10 VM
-  - From the Windows 10 VM, open command line or Powershell and attempt to ping a public website (www.google.com) and observe the traffic in Wireshark
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
   - Open the Network Security Group your Ubuntu VM is using and disable incoming ICMP traffic
     - Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command line Ping activity
