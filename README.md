@@ -40,7 +40,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Resource Group -> create -> name the group -> region: pick one near your location for optimal performance -> Review and Create -> Create
 
 <p>
-<img src="https://i.imgur.com/nQa0HuD.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>   
+<kbd> <img src="https://i.imgur.com/nQa0HuD.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> </kbd>  
 </p>
 <p>
 <p>
