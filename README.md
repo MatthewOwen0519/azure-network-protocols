@@ -40,11 +40,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Resource Group -> create -> name the group -> region: pick one near your location for optimal performance -> Review and Create -> Create
 
 <p>
-<img src="https://i.imgur.com/nQa0HuD.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/PgEf0tk.png" height="60%" width="60%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/nPGPJLE.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jqVMSq4.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -55,11 +55,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br /> 
 
 <p>
-<img src="https://i.imgur.com/01jMYHT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/egwGob7.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/3TVJPKI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jK0x396.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
